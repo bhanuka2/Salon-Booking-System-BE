@@ -22,6 +22,11 @@ public class UserController {
     @DeleteMapping("/delete/{id}")
     public void delete(@PathVariable Long id){userService.delete(id);}
 
+    @GetMapping("/getAll")
+    public void getAll(UserDTO userDTO){userService.getAll(userDTO);}
+
+
+
 
 }
 

@@ -8,4 +8,6 @@ public interface UserService {
     void update(UserDTO userDTO);
 
     void delete(Long id);
+
+    void getAll(UserDTO userDTO);
 }
